@@ -12,10 +12,16 @@ body {
 h1 {
   color: goldenrod;
   margin-top: 6rem;
+  font-size: 2.2rem;
+}
+
+.gems {
+  font-size: 1.7rem;
 }
 
 #message-el {
   font-style: italic;
+  font-size: 1.6rem;
 }
 
 button {
@@ -25,7 +31,7 @@ button {
   background-color: goldenrod;
   text-transform: uppercase;
   border: none;
-  color: rgb(9, 51, 9);
+  color: #093309;
   padding-block: 10px;
   border-radius: 5px;
   font-size: large;
