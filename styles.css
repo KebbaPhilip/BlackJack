@@ -3,22 +3,29 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: white;
   font-weight: bolder;
+  margin-top: 2rem;
   text-align: center;
+  background-image: url("./images/blackjack.png");
+  background-size: cover;
 }
 
 h1 {
   color: goldenrod;
+  margin-top: 6rem;
 }
 
 #message-el {
   font-style: italic;
 }
 
-#btn {
-  width: 150px;
+button {
+  display: block;
+  margin: 0.5rem auto;
+  width: 175px;
   background-color: goldenrod;
+  text-transform: uppercase;
   border: none;
-  color: black;
+  color: rgb(9, 51, 9);
   padding-block: 10px;
   border-radius: 5px;
   font-size: large;
